@@ -1,0 +1,26 @@
+/* when a follows h2 */
+h2 + a{
+    color:red;
+}
+/* when button follows textarea and both in same parrent */
+
+textarea ~ button {
+    color:purple;
+}
+
+/* all li s inside of ul */
+ul > ol{
+    color: rgb(165, 165, 182);
+}
+
+ul li {
+    color:green
+}
+
+h2[class*=article-subtitle]:hover{
+    background:green;
+}
+
+img[src*="/img/"]{
+    border:5px solid purple;
+}
